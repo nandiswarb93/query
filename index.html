@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .flex-container {
+            display: flex;
+            background-color: black;
+            color: wheat;
+            
+          }
+          
+          .flex-container > div {
+        
+            margin: 10px;
+            padding: 20px;
+            font-size: 30px;
+          }
+        @media only screen and (min-width:360px) and  (max-width:480px){
+            div{
+              background-color: aqua;
+              color: gold;
+        
+              flex-wrap: wrap;
+
+            }
+        
+        }
+
+
+    </style>
+</head>
+<body>
+    <div class="flex-container">
+        <div>home</div>
+        <div>about</div>
+        <div>menu</div>  
+        <div>veg</div>
+        <div>home</div>
+        <div>about</div>
+        <div>menu</div>  
+        <div>veg</div>
+    
+         
+      </div>
+    
+</body>
+</html>
